@@ -1,0 +1,41 @@
+{
+  "service": "iStore Official Lab",
+  "revenue": 7400.0,
+  "orders": [
+    {
+      "id": 101,
+      "client": "Артем",
+      "device": "iPhone 15 Pro",
+      "status": "Відремонтовано",
+      "cost": 3400.0
+    },
+    {
+      "id": 102,
+      "client": "Вікторія",
+      "device": "MacBook Air M2",
+      "status": "Відремонтовано",
+      "cost": 4000.0
+    },
+    {
+      "id": 103,
+      "client": "Максим",
+      "device": "iPhone 13 Pro",
+      "status": "Очікує",
+      "cost": 0.0
+    }
+  ],
+  "parts": [
+    {
+      "name": "Заміна батареї iPhone",
+      "stock": 1
+    },
+    {
+      "name": "Чистка та заміна клавіатури Mac",
+      "stock": 0
+    },
+    {
+      "name": "Заміна камери iPhone",
+      "stock": 0
+    }
+  ]
+}

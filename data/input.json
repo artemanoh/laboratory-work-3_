@@ -1,0 +1,17 @@
+{
+  "service_title": "iStore Official Lab",
+  "parts": [
+    {"part_name": "Заміна батареї iPhone", "stock_quantity": 2, "price": 2800},
+    {"part_name": "Чистка та заміна клавіатури Mac", "stock_quantity": 1, "price": 3400},
+    {"part_name": "Заміна камери iPhone", "stock_quantity": 0, "price": 3100}
+  ],
+  "masters": [
+    {"name": "Олексій", "max_load": 2},
+    {"name": "Артем", "max_load": 1}
+  ],
+  "orders": [
+    {"order_id": 101, "client_name": "Артем", "device": {"type": "iphone", "model": "iPhone 15 Pro", "serial_number": "SN-40291", "issue": "Заміна батареї iPhone", "battery_health": 74, "face_id_ok": true}},
+    {"order_id": 102, "client_name": "Вікторія", "device": {"type": "macbook", "model": "MacBook Air M2", "serial_number": "SN-55210", "issue": "Чистка та заміна клавіатури Mac", "screen_size": 13.6, "cpu_temp": 86.4, "ssd_life_percent": 95}},
+    {"order_id": 103, "client_name": "Максим", "device": {"type": "iphone", "model": "iPhone 13 Pro", "serial_number": "SN-10294", "issue": "Заміна камери iPhone", "battery_health": 89, "face_id_ok": false}}
+  ]
+}
